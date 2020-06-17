@@ -1,0 +1,24 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#image {
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'myfont';
+    src: url('/fonts/LovingYou.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo {
+    h1 {
+        color: skyblue;
+        font-family: 'myfont';
+        font-size: 6em;
+        padding: 100px;
+    }
+}
